@@ -1,0 +1,21 @@
+{
+  "name": "interference-wave",
+  "version": "1.0.0",
+  "description": "Interactive WebGL interference wave visualization",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/interference-wave.git"
+  },
+  "keywords": ["webgl", "shader", "interference", "waves"],
+  "author": "Your Name",
+  "license": "MIT"
+}

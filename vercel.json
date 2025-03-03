@@ -1,12 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "",
+  "buildCommand": null,
   "outputDirectory": ".",
-  "public": true,
-  "functions": {
-    "api/*.js": {
-      "memory": 1024,
-      "maxDuration": 10
-    }
-  }
+  "public": true
 }

@@ -9,7 +9,7 @@ const waveParams = {
     wavelength: 0.05,
     frequency: 10.0,
     amplitude: 1.0,
-    velocity: 5.0,
+    velocity: 2.0,    // Changed from 5.0 to 2.0
     distanceDecay: 2.0,
     fadeTime: 7.0
 };
@@ -157,7 +157,7 @@ function initGui() {
     gui.add(waveParams, 'wavelength', 0.01, 0.2).name('Wave Length');
     gui.add(waveParams, 'frequency', 1, 50).name('Frequency');
     gui.add(waveParams, 'amplitude', 0.1, 2).name('Amplitude');
-    gui.add(waveParams, 'velocity', 1, 20).name('Velocity');
+    gui.add(waveParams, 'velocity', 0.5, 5).name('Velocity');    // Changed range from (1, 20) to (0.5, 5)
     gui.add(waveParams, 'distanceDecay', 0.1, 5).name('Distance Decay');
     gui.add(waveParams, 'fadeTime', 1, 15).name('Fade Time');
 }
